@@ -1,1 +1,157 @@
+/*
+* Nav Bar
+*/
+
+.nav-item a {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+
 /* You can add global styles to this file, and also import other style files */
+/* HERO CAROUSEL */
+.hero-carousel {
+  position: relative;
+  height:750px;
+  overflow: hidden;
+  background-color: #17131c;
+}
+
+/* Keep every slide the same height */
+.hero-carousel .carousel-item {
+  height: 750px;
+  position: relative;
+}
+
+/* Crop images instead of stretching them */
+.hero-carousel .hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Darken the image so white text is readable */
+.hero-carousel .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(23, 19, 28, 0.82) 0%,
+    rgba(23, 19, 28, 0.55) 55%,
+    rgba(23, 19, 28, 0.15) 100%
+  );
+}
+
+/* Center the caption vertically */
+.hero-carousel .hero-caption {
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  bottom: auto;
+  left: 12%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 0 20px;
+  color: #ffffff;
+}
+
+/* Small introductory text */
+.hero-carousel .hero-eyebrow {
+  display: block;
+  margin-bottom: 18px;
+  color: #f3d8a2;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+/* Main heading */
+.hero-carousel .hero-caption h1 {
+  max-width: 850px;
+  margin: 0 auto 20px;
+  color: #ffffff;
+  font-size: clamp(2.2rem, 4.5vw, 4.2rem);
+  font-weight: 800;
+  line-height: 1.12;
+}
+
+/* Supporting text */
+.hero-carousel .hero-caption p {
+  max-width: 680px;
+  margin: 0 auto 28px;
+  color: #ffffff;
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  line-height: 1.7;
+}
+
+/* Button */
+.hero-carousel .hero-caption .btn {
+  background-color: #552988;
+  border-color: #552988;
+  color: #ffffff;
+  padding: 13px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hero-carousel .hero-caption .btn:hover {
+  background-color: #43206d;
+  border-color: #43206d;
+}
+
+/* Visible slide indicators */
+.hero-carousel .carousel-indicators {
+  z-index: 3;
+}
+
+.hero-carousel .carousel-indicators button {
+  width: 32px;
+  height: 4px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 767.98px) {
+  .hero-carousel,
+  .hero-carousel .carousel-item {
+    height: 440px;
+  }
+
+  .hero-carousel .hero-image {
+    object-position: center;
+  }
+
+  .hero-carousel .hero-overlay {
+    background: rgba(23, 19, 28, 0.62);
+  }
+
+  .hero-carousel .hero-caption {
+    right: 8%;
+    left: 8%;
+    padding: 0 8px;
+  }
+
+  .hero-carousel .hero-eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+  }
+
+  .hero-carousel .hero-caption h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .hero-carousel .hero-caption p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 22px;
+  }
+
+  .hero-carousel .hero-caption .btn {
+    font-size: 0.9rem;
+    padding: 11px 20px;
+  }
+}
