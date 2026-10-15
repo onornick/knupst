@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title desc">
+  <title id="title">KNUPST logo</title>
+  <desc id="desc">Three united figures rising from an open book within a gold arc, above the KNUPST name and full union name.</desc>
+  <defs>
+    <style>
+      .navy{fill:#17365D}.green{fill:#247547}.gold{fill:#D6A83E}
+      .wordmark{font-family:Georgia,'Times New Roman',serif;font-weight:700;letter-spacing:2px}
+      .subline{font-family:Arial,Helvetica,sans-serif;font-weight:600;letter-spacing:.5px}
+    </style>
+  </defs>
+  <rect width="900" height="760" fill="none"/>
+  <!-- Protective gold arc -->
+  <path d="M247 292 A205 205 0 0 1 653 292" fill="none" stroke="#D6A83E" stroke-width="12" stroke-linecap="round"/>
+  <!-- Three people: central figure and two supporting figures -->
+  <circle class="navy" cx="450" cy="165" r="34"/>
+  <path class="navy" d="M450 207 L385 249 L408 276 L432 260 L432 360 L468 360 L468 260 L492 276 L515 249 Z"/>
+  <circle class="green" cx="332" cy="220" r="27"/>
+  <path class="green" d="M312 251 Q282 267 264 298 L316 319 L346 365 L371 349 L350 292 Q340 266 312 251Z"/>
+  <path class="green" d="M311 265 L228 250 Q215 248 209 260 Q207 273 222 279 L322 306Z"/>
+  <circle class="green" cx="568" cy="220" r="27"/>
+  <path class="green" d="M588 251 Q618 267 636 298 L584 319 L554 365 L529 349 L550 292 Q560 266 588 251Z"/>
+  <path class="green" d="M589 265 L672 250 Q685 248 691 260 Q693 273 678 279 L578 306Z"/>
+  <!-- Open book -->
+  <path class="navy" d="M155 390 Q255 354 355 390 Q405 407 450 434 Q495 407 545 390 Q645 354 745 390 L710 425 Q615 397 535 426 Q486 444 450 470 Q414 444 365 426 Q285 397 190 425Z"/>
+  <path class="green" d="M177 430 Q278 401 363 432 Q409 449 450 476 Q491 449 537 432 Q622 401 723 430 L700 449 Q611 425 540 452 Q490 470 450 497 Q410 470 360 452 Q289 425 200 449Z"/>
+  <path class="navy" d="M198 459 Q293 440 364 464 Q411 481 450 508 Q489 481 536 464 Q607 440 702 459 L681 478 Q600 462 540 485 Q490 504 450 531 Q410 504 360 485 Q300 462 219 478Z"/>
+  <!-- Small gold base accent -->
+  <path class="gold" d="M405 515 Q450 540 495 515 L481 533 Q450 548 419 533Z"/>
+  <!-- Wordmark -->
+  <text x="450" y="625" class="navy wordmark" font-size="105" text-anchor="middle">KNUPST</text>
+  <path d="M92 650 H390 M510 650 H808" stroke="#D6A83E" stroke-width="4" stroke-linecap="round"/>
+  <path class="gold" d="M450 632 L456 645 L470 647 L460 657 L462 671 L450 664 L438 671 L440 657 L430 647 L444 645Z"/>
+  <text x="450" y="704" class="navy subline" font-size="24" text-anchor="middle">Kenya National Union of</text>
+  <text x="450" y="735" class="navy subline" font-size="24" text-anchor="middle">Private School Teachers</text>
+</svg>
